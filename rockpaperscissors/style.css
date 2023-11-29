@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(36, 28, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80vh;
+    flex-direction: column;
+    margin: 50px;
+    background-color: rgb(19, 14, 4);
+    border: solid 3px rgb(103, 101, 101);
+    border-radius: 10px;
+
+}
+.main h2{
+    font-size: 40px;
+    font-family:monospace;
+    color: rgb(177, 85, 4);
+    margin-bottom: 50px;
+}
+
+.main p{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: rgb(179, 177, 177);
+}
+.weapons{
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+}
+.weapons #rock{
+    width: 200px;
+    height: 200px;
+    background-image: url(/jstraing/rockpaperscissors/img/a\ cat\ holding\ r\ 1.png);
+    background-size: cover;
+    border: none;
+    border-radius: 8px;
+}
+.weapons #paper{
+    width: 200px;
+    height: 200px;
+    background-image: url(/jstraing/rockpaperscissors/img/a\ cat\ holding\ p\ 1.png);
+    background-size: cover;
+    border: none;
+    border-radius: 8px;
+}
+.weapons #scissors{
+    width: 200px;
+    height: 200px;
+    background-image: url(/jstraing/rockpaperscissors/img/a\ cat\ holding\ s\ 1.png);
+    background-size: cover;
+    border: none;
+    border-radius: 8px;
+}
+
+#points{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#points button{
+    background-color: rgb(135, 93, 15);
+    color: white;
+    width: 190px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
